@@ -12,7 +12,8 @@ import java.util.Scanner;
  * @author Students
  */
 public class Shape {
-    public static void rectangle()
+    shape shapeobj=new shape();
+    public  void rectangle()
             {
         int width,length,area;
      Scanner input=new Scanner(System.in);//instruct user to input values scanner class
@@ -29,8 +30,10 @@ public class Shape {
      */
     public static void main (String[]args)
     {
-         rectangle();
+         shape.rectangle();
          
+         
+
          
      }
      
